@@ -1,0 +1,4 @@
+include MANIFEST.in
+include app/ext.conf
+
+recursive-include app/static *cd

@@ -1,0 +1,12 @@
+[console_scripts]
+mopidy = mopidy.__main__:main
+
+[mopidy.ext]
+file = mopidy.file:Extension
+http = mopidy.http:Extension
+local = mopidy.local:Extension
+m3u = mopidy.m3u:Extension
+mpd = mopidy.mpd:Extension
+softwaremixer = mopidy.softwaremixer:Extension
+stream = mopidy.stream:Extension
+
