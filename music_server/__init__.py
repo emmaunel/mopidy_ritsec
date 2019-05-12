@@ -1,13 +1,12 @@
-from flask import Flask
 import os.path
 from mopidy import config, ext
 
 class Extension(ext.Extension):
-    ext_name = 'RITSEC Music'
+    ext_name = 'music_server'
 
     def get_default_config(self):
         conf_file = os.path.join(os.path.dirname(__file__), 'ext.conf')
-        return config.read(config)
+        return config.read(conf_file)
 
 
     def setup(self, registry):
@@ -15,6 +14,6 @@ class Extension(ext.Extension):
         dirf = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static')
         registry.add('http:static', dict(name=self.ext_name, path=dirf))
 
-# app = Flask(__name__)
+# music_server = Flask(__name__)
 #
-# from app import routes
+# from music_server import routes

@@ -2,6 +2,7 @@ from __future__ import unicode_literals
 import re
 from setuptools import find_packages, setup
 
+
 def get_version(filename):
     content = open(filename).read()
     meta = dict(re.findall("__([a-z]+)__ = '([^']+)'", content))
@@ -10,7 +11,8 @@ def get_version(filename):
 
 setup(
     name='RITSEC Music Server',
-    version = get_version('MusicServer/__init__.py'),  # come back for this
+    version = get_version('music_server/__init__.py'),  # come back for this
+    url = 'https://github.com/emmaunel/RITSEC-Music-Server',
     author = 'Ayobami Emmanuel Adewale',
     author_email='aea8506@g.rit.edu',
     description = 'Mopidy music streaming server for the sec lab',
@@ -24,7 +26,7 @@ setup(
 
     entry_points={
         'mopidy.ext' : [
-            'RITSEC_SECLAB = app:Extension',
+            'music_server = music_server:Extension',
         ],
     },
     classifiers=[
