@@ -5,13 +5,13 @@ from setuptools import find_packages, setup
 
 def get_version(filename):
     content = open(filename).read()
-    meta = dict(re.findall("__([a-z]+)__ = '([^']+)'", content))
-    return meta['version']
+    metadata = dict(re.findall("__([a-z]+)__ = '([^']+)'", content))
+    return metadata['version']
 
 
 setup(
     name='RITSEC Music Server',
-    version = get_version('music_server/__init__.py'),  # come back for this
+    version = get_version('music_server/__init__.py'),
     url = 'https://github.com/emmaunel/RITSEC-Music-Server',
     author = 'Ayobami Emmanuel Adewale',
     author_email='aea8506@g.rit.edu',
