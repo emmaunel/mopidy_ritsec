@@ -1,1 +1,1 @@
-# RITSEC Music Server
+RITSEC Music Server
