@@ -32,7 +32,7 @@ setup(
 
     entry_points={
         'mopidy.ext' : [
-            'music_server = mopidy_ritsec:Extension',
+            'mopidy_ritsec = mopidy_ritsec:Extension',
         ],
     },
     classifiers=[
