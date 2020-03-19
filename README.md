@@ -1,12 +1,9 @@
-####################
-RITSEC Music Server
-####################
+# RITSEC Music Server
+
 
 A Mopidy web client for RTISEC labs.
 
-###############
-TODO
-###############
+## TODO
 
 - [ ] Add spotify plugin
 - [ ] Add pandora plugin
