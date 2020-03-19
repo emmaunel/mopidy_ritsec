@@ -1,7 +1,7 @@
 # RITSEC Music Server
 
 
-A Mopidy web client for RTISEC labs.
+A Mopidy web client for RITSEC labs.
 
 ## TODO
 
