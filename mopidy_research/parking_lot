@@ -1,12 +1,18 @@
 # Parking Lot is a place for all ideas/thoughts. 
 
 Thoughts:
+
 - Need to create guide for installing modipy and necessary extensions on the repo
 - Need to add documentation to repo
+
 - Need to create a conf file to overright the given conf file
 	- Maybe two conf files, one for mopidy, one for iris/web client
+
 - Iris: can we over right graphical settings without rewritting the entire extension?
+	- include Iris within this repo, change path, change settings for more RITSEC stuff
+
 - what does the spotify ext need? How do those needs get filled?
+
 - what is emmanuals stuff for? what does it do? what are the steps of this project? What has already been accomplished?
 	- How does everything work?! 
 - can we make this a simple install for the rasberry pi? like one command?

@@ -1,0 +1,9 @@
+Initially Observations:
+- Want to run mopidy as a service 
+- Need to install the extensions:
+	- Mopidy-Spotify
+	- Mopidy-Local
+	- Mopidy-Iris
+- Conf file:
+	- Need to add info on the necessary extensions
+
